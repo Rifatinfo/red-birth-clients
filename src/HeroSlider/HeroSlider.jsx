@@ -20,7 +20,7 @@ const HeroSlider = ({ onWatchVideo , playStatus , setPlayStatus}) => {
             <Swiper
                 modules={[Pagination, Autoplay, Navigation]}
                 pagination={{ clickable: true }}
-                autoplay={{ delay: 30000 }}
+                autoplay={{ delay: 3000 }}
                 navigation={false}
                 className="mySwiper h-full custom-swiper"
             >
