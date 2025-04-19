@@ -1,12 +1,6 @@
 import serviceBanner from '../../assets/service_1.jpg';
 import Service_1 from '../../Components/Service/service_1';
 
-// Swiper
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
-
 const Service = () => {
     const serviceImag = [
         {
@@ -16,15 +10,15 @@ const Service = () => {
     ];
 
     return (
-        <div className="flex flex-col md:flex-row gap-2 md:gap-4">
+        <div className="flex flex-col md:flex-row gap-2 md:gap-4 mt-10">
             {/* Left Banner + Card */}
-            <div className="relative md:w-1/3 w-full  ">
-                <img className='grayscale contrast-100' src={serviceBanner} alt="" />
-                <div className='md:absolute md:-mt-150 md:ml-70'>
-                    <div className='relative w-full max-w-sm h-[500px] text-white overflow-hidden rounded-4xl shadow-lg'>
+            <div className="relative md:w-1/3 w-full ">
+                <img className='grayscale contrast-100 rounded-2xl' src={serviceBanner} alt="" />
+                <div className='md:absolute md:-mt-150 md:ml-70 -mt-24'>
+                    <div className='relative w-full max-w-sm h-[500px] text-white overflow-hidden rounded-4xl shadow-lg  '>
                         {/* backgroundImage with red overlay */}
                         <div className='absolute inset-0'>
-                            <img src="https://designingmedia.com/blazin/wp-content/uploads/2023/02/About-us-section-group-image.jpg" className='w-full h-full object-cover' alt="" />
+                            <img src="https://designingmedia.com/blazin/wp-content/uploads/2023/02/About-us-section-group-image.jpg" className='w-full h-full object-cover ' alt="" />
                             <div className='absolute inset-0 bg-red-700 opacity-70   transition-opacity duration-300'></div>
                         </div>
 
@@ -36,7 +30,7 @@ const Service = () => {
                                     Services <br />
                                     <span class="font-normal">We offer</span>
                                 </h1>
-                                <hr className="my-4 border-white/50 w-10" />
+                                <hr className="my-4 border-1 border-white/50 w-20" />
                                 <p className="text-lg text-white/90">
                                     Reprehenderit rui in ea volurate esse ruam nihil molestiae consea eum fugiat ruo voluetas. ruam nihil molestiae consea eum fugiat ruo voluetas
                                 </p>
@@ -64,7 +58,7 @@ const Service = () => {
                         backgroundRepeat: 'no-repeat'
                     }}
                 >
-                    <div className='grid-cols-3 grid gap-3'>
+                    <div className='md:grid-cols-3 grid gap-3 grid-cols-1'>
                         <Service_1 />
                         <Service_1 />
                         <Service_1 />

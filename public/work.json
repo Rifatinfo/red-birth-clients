@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "category": "SOCIAL MARKETING",
+      "title": "Guis aute irure dolor inea. aute irure",
+      "image": "https://designingmedia.com/blazin/wp-content/uploads/2023/02/Web-design-project.jpg",
+      "overlayIcon": "https://designingmedia.com/blazin/wp-content/plugins/blazin-toolkit/assets/images/portfolio_box_hover.png"
+    },
+    {
+      "id": 2,
+      "category": "WEB DEVELOPMENT",
+      "title": "Ullamco laboris nisi ut aliquip ex ea",
+      "image": "https://designingmedia.com/blazin/wp-content/uploads/2023/02/Social-marketing-project.jpg",
+      "overlayIcon": "https://designingmedia.com/blazin/wp-content/plugins/blazin-toolkit/assets/images/portfolio_box_hover.png"
+    },
+    {
+      "id": 3,
+      "category": "GRAPHIC DESIGN",
+      "title": "Duis aute irure dolor in reprehenderit",
+      "image": "https://designingmedia.com/blazin/wp-content/uploads/2023/02/Tech-solutions-projects.jpg",
+      "overlayIcon": "https://designingmedia.com/blazin/wp-content/plugins/blazin-toolkit/assets/images/portfolio_box_hover.png"
+    },
+    {
+      "id": 4,
+      "category": "APP DESIGN",
+      "title": "Excepteur sint occaecat cupidatat non",
+      "image": "https://designingmedia.com/blazin/wp-content/uploads/2023/02/Web-developement-project.jpg",
+      "overlayIcon": "https://designingmedia.com/blazin/wp-content/plugins/blazin-toolkit/assets/images/portfolio_box_hover.png"
+    },
+    {
+      "id": 5,
+      "category": "SEO OPTIMIZATION",
+      "title": "Sunt in culpa qui officia deserunt mollit",
+      "image": "https://designingmedia.com/blazin/wp-content/uploads/2023/02/digital-marketing-project.jpg",
+      "overlayIcon": "https://designingmedia.com/blazin/wp-content/plugins/blazin-toolkit/assets/images/portfolio_box_hover.png"
+    },
+    {
+      "id": 6,
+      "category": "CONTENT STRATEGY",
+      "title": "Velit esse cillum dolore eu fugiat nulla",
+      "image": "https://designingmedia.com/blazin/wp-content/uploads/2023/02/mobile-app-project.jpg",
+      "overlayIcon": "https://designingmedia.com/blazin/wp-content/plugins/blazin-toolkit/assets/images/portfolio_box_hover.png"
+    }
+  ]
+  
